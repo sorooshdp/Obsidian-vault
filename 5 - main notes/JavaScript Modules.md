@@ -80,6 +80,81 @@ This is useful for code-splitting, lazy-loading parts of your app only when need
 |Need for dynamic runtime import|CommonJS: `require`; ESM: `import()`|
 |Frontend frameworks (React, etc.)|ES Modules (`import`)|
 
+## Different Types of Exporting in JavaScript Modules
+
+In JavaScript, the module system provides several ways to export functions, variables, classes, or values so that they can be imported and used in other files. There are mainly two types of exports:
+## 1. Named Exports
+- You can **export multiple named values** from a module.
+- Each item is explicitly named and exported.
+- Named exports are imported with matching names inside curly braces `{}`.
+- You can export named declarations inline or in a list.
+
+```js
+export const pi = 3.14;
+export function square(x) {
+  return x * x;
+}
+export class Circle { /* ... */ }
+
+const pi = 3.14;
+function square(x) {
+  return x * x;
+}
+export { pi, square };
+
+// importing named exports
+
+import { pi, square } from './math.js';
+
+```
+
+---
+
+## 2. Default Exports
+- Each module can have **only one default export**.
+- The default export can be a function, class, object, or any value.
+- Default exports are imported without curly braces and can be given any name on import.
+```js
+export default function cube(x) { return x * x * x; }
+
+const color = "blue";
+export default color;
+import cube from './cube.js'; // name cube is arbitrary here
+```
+---
+
+## 3. Aggregating Exports (Re-exporting)
+- You can re-export exports from other modules to create a central module aggregating many exports.
+- Useful for organizing and simplifying imports elsewhere.
+```js
+export { function1, variable1 } from './module1.js';
+export * from './module2.js';   // re-export everything from module2
+export * as utils from './utils.js'; // namespace export (ES2020+)
+
+```
+`
+
+---
+
+## Summary Table of Export Types
+
+| Export Type             | Description                                        | Multiple Allowed? | Import Syntax                      |
+| ----------------------- | -------------------------------------------------- | ----------------- | ---------------------------------- |
+| **Named Export**        | Export each symbol by name                         | Yes               | `import { name1, name2 }`          |
+| **Default Export**      | Export a single main value or function per module  | No                | `import anyName`                   |
+| **Re-export/Aggregate** | Export selected or all exports from another module | N/A               | N/A (re-export syntax in exporter) |
+
+---
+
+## Additional Notes
+
+- **Named exports** are useful when a module exports multiple variables or functions.
+- **Default exports** are good for modules with a single main export.
+- You can combine both in the same module, but remember there can only be one default.
+- Exported values are live bindings; changes to the original export are reflected in imports.
+- Re-exporting allows you to build module "barrels" or centralized export files.
+
+
 # References
 1. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 2. [https://www.turing.com/kb/javascript-modules](https://www.turing.com/kb/javascript-modules)
@@ -93,3 +168,11 @@ This is useful for code-splitting, lazy-loading parts of your app only when need
 10. [https://savvy.co.il/en/blog/complete-javascript-guide/javascript-modules/](https://savvy.co.il/en/blog/complete-javascript-guide/javascript-modules/)
 11. [https://dev.to/doccaio/why-are-they-avoiding-using-require-and-using-import-in-javascript-k70](https://dev.to/doccaio/why-are-they-avoiding-using-require-and-using-import-in-javascript-k70)
 12. [https://codeparrot.ai/blogs/require-vs-import](https://codeparrot.ai/blogs/require-vs-import)
+13.  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
+14. [https://www.w3schools.com/js/js_modules.asp](https://www.w3schools.com/js/js_modules.asp)
+15. [https://stackoverflow.com/questions/49854060/export-types-from-module](https://stackoverflow.com/questions/49854060/export-types-from-module)
+16. [https://www.freecodecamp.org/news/module-exports-how-to-export-in-node-js-and-javascript/](https://www.freecodecamp.org/news/module-exports-how-to-export-in-node-js-and-javascript/)
+17. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+18. [https://www.taniarascia.com/javascript-modules-import-export/](https://www.taniarascia.com/javascript-modules-import-export/)
+19. [https://dev.to/sudhanshudevelopers/javascript-modules-explained-import-export-examples-aoo](https://dev.to/sudhanshudevelopers/javascript-modules-explained-import-export-examples-aoo)
+20. [https://javascript.info/import-export](https://javascript.info/import-export)
