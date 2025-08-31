@@ -1,0 +1,13 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: View
+    cardSize: 280
