@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - main notes/nullish coalescing operator.md",
+                "file": "5 - main notes/YDKJS this.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "nullish coalescing operator"
+              "title": "YDKJS this"
             }
           }
         ],
@@ -176,19 +176,21 @@
   },
   "active": "1f82b906fd909ab5",
   "lastOpenFiles": [
-    "5 - main notes/React batching.md",
+    "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
+    "5 - main notes/YDKJS this.md",
+    "README.md",
+    "6 - Bases/Notes.base",
+    "5 - main notes/YDKJS Grammar.md",
+    "Pasted image 20250818000844.png",
     "5 - main notes/nullish coalescing operator.md",
+    "5 - main notes/React batching.md",
     "5 - main notes/[].md",
     "5 - main notes/React hooks.md",
     "5 - main notes/Untitled 2.md",
-    "6 - Bases/Notes.base",
     "Untitled.base",
     "6 - Bases",
     "5 - main notes/JavaScript Modules.md",
-    "README.md",
-    "5 - main notes/YDKJS Grammar.md",
     "5 - main notes/YDKJS Coercion.md",
-    "Pasted image 20250818000844.png",
     "5 - main notes/YDKJS Function vs. Block scope.md",
     "5 - main notes/React compiler.md",
     "2 - tags/react.md",
@@ -204,8 +206,6 @@
     "5 - main notes/YDKJS lexical scope.md",
     "5 - main notes/YDKJS intro to js.md",
     "5 - main notes/YDKJS Hoisting.md",
-    "5 - main notes/Poison frogs!.md",
-    "5 - main notes/The heart of React.md",
     "Pasted image 20240719191610.png",
     "Pasted image 20240719191558.png",
     "5 - main notes",
