@@ -11,24 +11,13 @@
             "id": "1f82b906fd909ab5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "5 - main notes/Metadata.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "6 - Bases/Notes.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Metadata"
+              "icon": "lucide-table",
+              "title": "Notes"
             }
           }
         ],
@@ -176,6 +165,7 @@
   },
   "active": "1f82b906fd909ab5",
   "lastOpenFiles": [
+    "5 - main notes/nvim setup.md",
     "5 - main notes/Metadata.md",
     "5 - main notes/YDKJS this.md",
     "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
@@ -205,7 +195,6 @@
     "5 - main notes/YDKJS scope & closures.md",
     "5 - main notes/YDKJS Modules.md",
     "5 - main notes/YDKJS lexical scope.md",
-    "5 - main notes/YDKJS intro to js.md",
     "Pasted image 20240719191610.png",
     "Pasted image 20240719191558.png",
     "5 - main notes",
