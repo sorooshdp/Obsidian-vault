@@ -4,20 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "f74e732090692edb",
+        "id": "a8b9c659ed503c3b",
         "type": "tabs",
         "children": [
           {
-            "id": "1f82b906fd909ab5",
+            "id": "4f93b931d7522d96",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "6 - Bases/Notes.base",
-                "viewName": "Table"
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-table",
-              "title": "Notes"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -163,16 +174,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f82b906fd909ab5",
+  "active": "4f93b931d7522d96",
   "lastOpenFiles": [
+    "JavaScript-Equality-Table.png",
+    "README.md",
+    "6 - Bases/Notes.base",
     "5 - main notes/nvim setup.md",
     "5 - main notes/Metadata.md",
     "5 - main notes/YDKJS this.md",
     "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
-    "README.md",
-    "6 - Bases/Notes.base",
     "5 - main notes/YDKJS Grammar.md",
-    "Pasted image 20250818000844.png",
     "5 - main notes/nullish coalescing operator.md",
     "5 - main notes/React batching.md",
     "5 - main notes/[].md",
@@ -193,8 +204,6 @@
     "5 - main notes/YDKJS Types.md",
     "5 - main notes/YDKJS Scope closure.md",
     "5 - main notes/YDKJS scope & closures.md",
-    "5 - main notes/YDKJS Modules.md",
-    "5 - main notes/YDKJS lexical scope.md",
     "Pasted image 20240719191610.png",
     "Pasted image 20240719191558.png",
     "5 - main notes",

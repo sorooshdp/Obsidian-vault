@@ -200,7 +200,7 @@ false == {}; // false
 0 == {}; // false
 ```
 
-![[Pasted image 20250818000844.png]]
+![[JavaScript-Equality-Table.png]]
 
 ## Abstract Relational Comparison 
 

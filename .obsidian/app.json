@@ -1,5 +1,8 @@
 {
   "vimMode": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "5 - main notes"
+  "newFileFolderPath": "5 - main notes",
+  "userIgnoreFilters": [
+    "README"
+  ]
 }
