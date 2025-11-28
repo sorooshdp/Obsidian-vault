@@ -1,7 +1,7 @@
 2025/06/05  -  19:29
 status: 
 
-Tags: [[Federated learning]] [[AI]] 
+Tags: [[Federated learning]] [[AI]] [[machine learning]]
 
 ### Types of FL
 

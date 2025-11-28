@@ -1,7 +1,7 @@
 2025/05/01  -  15:30
 status: 
 
-Tags: [[AI]] [[Data Poisoning]]
+Tags: [[AI]] [[Data Poisoning]] [[machine learning]]
 
 Model Explain ability: The users want to understand what is happening under the black box of machine learning models and there are different approaches for this goal.
 

@@ -1,7 +1,7 @@
 2025/05/27  -  17:47
 status: 
 
-Tags: [[AI]] [[Federated learning]] 
+Tags: [[AI]] [[Federated learning]] [[machine learning]]
 
 1. A shared model is sent from the server to some selected clients. 
 2. The involved clients further train the model with their local data and submit the updated model or parameters to the server, respectively. 

@@ -1,6 +1,6 @@
 2024/08/08  -  14:04
 
-Tags: [[CSS]] 
+Tags: [[CSS]] [[Performance]]
 
 ## recalculation 
 Whenever a part of your page changes, the browser engine that’s running it needs to take a look at the new DOM tree, and figure how to style it based on the available CSS stylesheets. This operation of matching styles to DOM nodes is called a style recalculation.

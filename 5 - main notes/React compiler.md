@@ -1,7 +1,7 @@
 2025/08/10  -  11:43
 status: 
 
-Tags: [[react]]  
+Tags: [[react]]  [[compiler]] [[Performance]]
 
 The React Compiler is a highly anticipated feature in the React ecosystem, designed to **automatically `memoize` everything it can**, addressing long-standing debates about when and how often to use `React's` `memoization` features.
 

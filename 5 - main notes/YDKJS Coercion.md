@@ -1,6 +1,6 @@
 2024/08/08  -  02:09
 
-Tags: [[js]] [[coercion]] 
+Tags: [[js]] [[coercion]] [[types]] 
 
 ## coercion 
 Converting a value from one type to another is often called "type casting," when done explicitly, and "coercion" when done implicitly. JavaScript coercions always result in one of the scalar primitive values, like `string` , `number` , or `boolean` . There is no coercion that results in a complex value like `object` or `function`. 

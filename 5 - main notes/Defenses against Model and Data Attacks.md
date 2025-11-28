@@ -1,7 +1,7 @@
 2025/06/05  -  20:32
 status: 
 
-Tags: [[Federated learning]] [[AI]] 
+Tags: [[Federated learning]] [[AI]] [[machine learning]] [[security]] 
 
 Detect and Remove
 
