@@ -11,10 +11,24 @@
             "id": "4f93b931d7522d96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "5 - main notes/YDKJS this.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "YDKJS this"
             }
           }
         ],
@@ -75,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e2b8786e16f6356c",
@@ -162,6 +177,10 @@
   },
   "active": "4f93b931d7522d96",
   "lastOpenFiles": [
+    "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
+    "5 - main notes/YDKJS this.md",
+    "5 - main notes/Metadata.md",
+    "5 - main notes/Json-LD.md",
     "5 - main notes/Caching.md",
     "5 - main notes/The stack and the heap.md",
     "5 - main notes/Principal of least privilege.md",
@@ -184,10 +203,6 @@
     "5 - main notes/Browser Functionality and Web Performance.md",
     "5 - main notes/Prototype pattern.md",
     "5 - main notes/Singleton pattern.md",
-    "5 - main notes/React fiber.md",
-    "5 - main notes/React compiler.md",
-    "5 - main notes/React batching.md",
-    "5 - main notes/YDKJS Values.md",
     "JavaScript-Equality-Table.png",
     "6 - Bases/Notes.base",
     "Untitled.base",
