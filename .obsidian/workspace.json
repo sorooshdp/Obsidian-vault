@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a8b9c659ed503c3b",
+        "id": "d01ab68689038116",
         "type": "tabs",
         "children": [
           {
-            "id": "4f93b931d7522d96",
+            "id": "e89438fa2785f632",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - main notes/YDKJS this.md",
+                "file": "5 - main notes/IO devices and latency.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "YDKJS this"
+              "title": "IO devices and latency"
             }
           }
         ],
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e2b8786e16f6356c",
@@ -175,10 +174,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f93b931d7522d96",
+  "active": "e89438fa2785f632",
   "lastOpenFiles": [
-    "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
+    "5 - main notes/IO devices and latency.md",
+    "5 - main notes/Untitled.base",
     "5 - main notes/YDKJS this.md",
+    "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
     "5 - main notes/Metadata.md",
     "5 - main notes/Json-LD.md",
     "5 - main notes/Caching.md",
@@ -202,7 +203,6 @@
     "5 - main notes/Core Web Vitals.md",
     "5 - main notes/Browser Functionality and Web Performance.md",
     "5 - main notes/Prototype pattern.md",
-    "5 - main notes/Singleton pattern.md",
     "JavaScript-Equality-Table.png",
     "6 - Bases/Notes.base",
     "Untitled.base",
