@@ -1,0 +1,15 @@
+2026/08/13  -  11:49
+status: 
+
+Tags: [[software engineering]] 
+
+**Trust boundary** is a term used in [computer science](https://en.wikipedia.org/wiki/Computer_science "Computer science") and [security](https://en.wikipedia.org/wiki/Computer_security "Computer security") which describes a boundary where program data or execution changes its level of "trust", or where two [principals](https://en.wikipedia.org/wiki/Principal_\(computer_security\) "Principal (computer security)") with different capabilities exchange data or commands. The term refers to any distinct boundary where within a [system](https://en.wikipedia.org/wiki/System "System") all sub-systems (including data) have equal trust.[[1]] An example of an execution trust boundary would be where an application attains an increased [privilege level](https://en.wikipedia.org/wiki/Privilege_\(computing\) "Privilege (computing)") (such as [root](https://en.wikipedia.org/wiki/Superuser "Superuser")).[[2]] A data trust boundary is a point where data comes from an untrusted source--for example, user input or a [network socket](https://en.wikipedia.org/wiki/Network_socket "Network socket").[[3]]
+
+A "trust boundary violation" refers to a [vulnerability](https://en.wikipedia.org/wiki/Vulnerability_\(computing\) "Vulnerability (computing)") where computer [software](https://en.wikipedia.org/wiki/Software "Software") trusts data that has not been validated before crossing a boundary.[[4]]
+
+
+# References
+1.  Peter Stavroulakis; Mark Stamp (2010). [_Handbook of Information and Communication Security_](https://archive.org/details/handbookinformat00stav). [Springer](https://en.wikipedia.org/wiki/Springer_Science+Business_Media "Springer Science+Business Media"). p. [13](https://archive.org/details/handbookinformat00stav/page/n26).
+2. [](https://en.wikipedia.org/wiki/Trust_boundary#cite_ref-Takanen_2-0 "Jump up") Ari Takanen; Jared DeMott; Charles Miller (2008). [_Fuzzing for software security testing and quality assurance_](https://archive.org/details/fuzzingforsoftwa00taka_981). [Artech House](https://en.wikipedia.org/wiki/Artech_House "Artech House"). p. [60](https://archive.org/details/fuzzingforsoftwa00taka_981/page/n82). [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-1-59693-214-2](https://en.wikipedia.org/wiki/Special:BookSources/978-1-59693-214-2 "Special:BookSources/978-1-59693-214-2").
+3. [](https://en.wikipedia.org/wiki/Trust_boundary#cite_ref-neystadt_3-0 "Jump up") John Neystadt (February 2008). ["Automated Penetration Testing with White-Box Fuzzing"](http://msdn.microsoft.com/en-us/library/cc162782.aspx). Microsoft. Retrieved 2009-05-14.
+4. [](https://en.wikipedia.org/wiki/Trust_boundary#cite_ref-owasp_4-0 "Jump up") ["Trust Boundary Violation"](https://web.archive.org/web/20110519233053/https://www.owasp.org/index.php/Trust_Boundary_Violation). OWASP. Archived from [the original](https://www.owasp.org/index.php/Trust_Boundary_Violation) on 2011-05-19.

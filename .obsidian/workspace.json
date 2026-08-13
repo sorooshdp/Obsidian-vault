@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - main notes/IO devices and latency.md",
+                "file": "5 - main notes/Foreign function interface (FFI).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IO devices and latency"
+              "title": "Foreign function interface (FFI)"
             }
           }
         ],
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 279.5
   },
   "right": {
     "id": "e2b8786e16f6356c",
@@ -176,43 +176,44 @@
   },
   "active": "e89438fa2785f632",
   "lastOpenFiles": [
-    "5 - main notes/IO devices and latency.md",
+    "5 - main notes/Trust boundary.md",
+    "5 - main notes/Foreign function interface (FFI).md",
+    "5 - main notes/4.md",
     "5 - main notes/Untitled.base",
+    "5 - main notes/Sorting Algorithms Summary.md",
+    "5 - main notes/Deep Copy vs. Shallow Copy.md",
+    "5 - main notes/Data structures aiding memory management in JS.md",
+    "5 - main notes/A Survey of Security Strategies in Federated Learning.md",
+    "JavaScript-Equality-Table.png",
+    "5 - main notes/FL Paper Abstracts Notes.md",
+    "5 - main notes/Defenses against Model and Data Attacks.md",
+    "5 - main notes/Federated learning in medical context.md",
+    "5 - main notes/Caching.md",
+    "5 - main notes/Builder pattern.md",
+    "5 - main notes/Browser Functionality and Web Performance.md",
+    "5 - main notes/Benign Overfitting.md",
+    "5 - main notes/LHS and RHS Lookups.md",
+    "5 - main notes/Machine Learning through Visual Analytics.md",
+    "5 - main notes/Memory Management in JS.md",
+    "5 - main notes/Principal of least privilege.md",
+    "6 - Bases/Notes.base",
+    "4_5866472787106862848.mp4",
+    "VID_20250503_012959_748.mp4",
+    "4_5944920489322354864.mp4",
+    "VID_20250503_140847_438.mp4",
+    "VID_20250528_135915_591.mp4",
+    "VID_20251116_142343_950.mp4",
+    "4_6026052803795884316.mp4",
+    "VID_20250909_153739_841.mp4",
+    "5 - main notes/nvim setup.md",
+    "5 - main notes/React hooks.md",
+    "2 - tags/js.md",
+    "5 - main notes/IO devices and latency.md",
     "5 - main notes/YDKJS this.md",
     "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
     "5 - main notes/Metadata.md",
     "5 - main notes/Json-LD.md",
-    "5 - main notes/Caching.md",
-    "5 - main notes/The stack and the heap.md",
-    "5 - main notes/Principal of least privilege.md",
-    "5 - main notes/Deep Copy vs. Shallow Copy.md",
-    "5 - main notes/useEffect.md",
-    "5 - main notes/The heart of React.md",
-    "5 - main notes/SQL Injection.md",
-    "5 - main notes/Data model.md",
-    "5 - main notes/Poison frogs!.md",
-    "5 - main notes/Machine Learning through Visual Analytics.md",
-    "5 - main notes/Inference attack.md",
-    "5 - main notes/How To Backdoor Federated Learning.md",
-    "5 - main notes/Federated learning.md",
-    "5 - main notes/Federated learning in medical context.md",
-    "5 - main notes/Defenses against Model and Data Attacks.md",
-    "5 - main notes/Benign Overfitting.md",
-    "5 - main notes/A Survey of Security Strategies in Federated Learning.md",
-    "5 - main notes/CSS selector performance.md",
-    "5 - main notes/Core Web Vitals.md",
-    "5 - main notes/Browser Functionality and Web Performance.md",
-    "5 - main notes/Prototype pattern.md",
-    "JavaScript-Equality-Table.png",
-    "6 - Bases/Notes.base",
-    "Untitled.base",
-    "6 - Bases",
     "Pasted image 20240719191610.png",
-    "Pasted image 20240719191558.png",
-    "5 - main notes",
-    "4 - templates",
-    "3 - indexes",
-    "1 - rough notes",
-    "2 - tags"
+    "Pasted image 20240719191558.png"
   ]
 }
