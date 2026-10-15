@@ -6,17 +6,32 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag: #rust  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.3,
-  "nodeSizeMultiplier": 1.42941787941788,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 1.65805045157272,
   "lineSizeMultiplier": 2.50925155925156,
-  "collapse-forces": false,
-  "centerStrength": 0.538981288981289,
-  "repelStrength": 12.1101871101871,
-  "linkStrength": 0.688669438669439,
-  "linkDistance": 45,
-  "scale": 0.3164172793234211,
-  "close": true
+  "collapse-forces": true,
+  "centerStrength": 0.303020865773902,
+  "repelStrength": 15.6366004558776,
+  "linkStrength": 1,
+  "linkDistance": 213,
+  "scale": 0.10852577768551133,
+  "close": false
 }

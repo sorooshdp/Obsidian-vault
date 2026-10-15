@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d01ab68689038116",
+        "id": "4028ac4666a21e00",
         "type": "tabs",
         "children": [
           {
-            "id": "e89438fa2785f632",
+            "id": "50a41a34714653bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - main notes/Foreign function interface (FFI).md",
+                "file": "5 - main notes/Rust Functional Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Foreign function interface (FFI)"
+              "title": "Rust Functional Features"
             }
           }
         ],
@@ -52,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -89,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 200
   },
   "right": {
     "id": "e2b8786e16f6356c",
@@ -174,29 +176,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e89438fa2785f632",
+  "active": "50a41a34714653bd",
   "lastOpenFiles": [
-    "5 - main notes/Trust boundary.md",
-    "5 - main notes/Foreign function interface (FFI).md",
-    "5 - main notes/4.md",
-    "5 - main notes/Untitled.base",
+    "5 - main notes/Rust IO Project.md",
+    "5 - main notes/Rust Functional Features.md",
+    "5 - main notes/Rust Tests.md",
+    "5 - main notes/Rust Generic Types, Traits, and Lifetimes.md",
+    "5 - main notes/Rust Error Handling.md",
+    "5 - main notes/Rust Common Collections.md",
+    "5 - main notes/Rust Modules.md",
+    "5 - main notes/Rust Enums and Pattern Matching.md",
+    "5 - main notes/Rust common Concepts.md",
+    "2 - tags/js.md",
+    "5 - main notes/Rust Structs.md",
+    "3 - indexes/Rust.md",
     "5 - main notes/Sorting Algorithms Summary.md",
-    "5 - main notes/Deep Copy vs. Shallow Copy.md",
-    "5 - main notes/Data structures aiding memory management in JS.md",
-    "5 - main notes/A Survey of Security Strategies in Federated Learning.md",
-    "JavaScript-Equality-Table.png",
-    "5 - main notes/FL Paper Abstracts Notes.md",
-    "5 - main notes/Defenses against Model and Data Attacks.md",
-    "5 - main notes/Federated learning in medical context.md",
-    "5 - main notes/Caching.md",
-    "5 - main notes/Builder pattern.md",
-    "5 - main notes/Browser Functionality and Web Performance.md",
-    "5 - main notes/Benign Overfitting.md",
-    "5 - main notes/LHS and RHS Lookups.md",
-    "5 - main notes/Machine Learning through Visual Analytics.md",
-    "5 - main notes/Memory Management in JS.md",
-    "5 - main notes/Principal of least privilege.md",
+    "5 - main notes/Rust - Ownership.md",
     "6 - Bases/Notes.base",
+    "5 - main notes/A Survey of Security Strategies in Federated Learning.md",
+    "5 - main notes/IO devices and latency.md",
+    "5 - main notes/useEffect.md",
+    "5 - main notes/Untitled 1.base",
+    "5 - main notes/Untitled.base",
+    "5 - main notes/Trust boundary.md",
+    "5 - main notes/YDKJS Closures.md",
+    "5 - main notes/Metadata.md",
+    "4 - templates/full note.md",
+    "5 - main notes/Rust - getting started.md",
+    "5 - main notes/YDKJS intro to js.md",
+    "5 - main notes/Benign Overfitting.md",
+    "5 - main notes/8.md",
+    "5 - main notes/Core Web Vitals.md",
+    "JavaScript-Equality-Table.png",
+    "Untitled.canvas",
     "4_5866472787106862848.mp4",
     "VID_20250503_012959_748.mp4",
     "4_5944920489322354864.mp4",
@@ -204,15 +216,6 @@
     "VID_20250528_135915_591.mp4",
     "VID_20251116_142343_950.mp4",
     "4_6026052803795884316.mp4",
-    "VID_20250909_153739_841.mp4",
-    "5 - main notes/nvim setup.md",
-    "5 - main notes/React hooks.md",
-    "2 - tags/js.md",
-    "5 - main notes/IO devices and latency.md",
-    "5 - main notes/YDKJS this.md",
-    "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
-    "5 - main notes/Metadata.md",
-    "5 - main notes/Json-LD.md",
     "Pasted image 20240719191610.png",
     "Pasted image 20240719191558.png"
   ]
