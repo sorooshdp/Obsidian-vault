@@ -1,7 +1,14 @@
-2025/08/06  -  21:21
-status: 
-
-Tags: [[react]] [[Performance]]
+---
+created: 2025/08/06  -  21:21
+updated: 2026-11-09 22:29
+type: note
+status: seed
+topic:
+tags:
+  - react
+  - performance
+aliases: []
+---
 
 React Fiber is a complete rewrite of React's core reconciler, which has been the default reconciler since React version 16. It was developed to fix long-standing issues and provide new opportunities for future features.
 

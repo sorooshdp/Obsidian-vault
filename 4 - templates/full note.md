@@ -1,10 +1,10 @@
 ---
 created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
 updated: {{date:YYYY-MM-DD}} {{time:HH:mm}}
-type: note
+type: note # note | paper | cheatsheet | moc
 status: seed # seed | developing | mature
-tags:
-  - web/javascript
+topic:
+tags: []
 aliases: []
 ---
 

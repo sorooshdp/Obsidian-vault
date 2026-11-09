@@ -1,7 +1,13 @@
-2025/04/15  -  15:40
-status: 
-
-Tags: [[Performance]] 
+---
+created: 2025/04/15  -  15:40
+updated: 2026-11-09 22:20
+type: note
+status: seed
+topic:
+tags:
+  - performance
+aliases: []
+---
 
 LCP reports the render time of the largest [image, text block, or video](https://web.dev/articles/lcp#what-elements-are-considered) visible in the viewport, relative to when the user first navigated to the page. 
 

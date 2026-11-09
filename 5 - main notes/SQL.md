@@ -1,7 +1,14 @@
-2024/10/19  -  11:44
-status: 
-
-Tags: [[SQL]] [[Data Base]]
+---
+created: 2024/10/19  -  11:44
+updated: 2026-11-09 22:34
+type: note
+status: seed
+topic:
+tags:
+  - sql
+  - database
+aliases: []
+---
 
 SQL (Structured Query Language) is a standard programming language used for managing and manipulating relational databases. It's designed to handle data stored in tables, where each row represents a record, and each column represents a field. Here’s a breakdown based on academic sources:
 

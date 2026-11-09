@@ -1,7 +1,15 @@
-2026/08/16  -  19:14
-status: 
+---
+created: 2026-11-08 12:25
+updated: 2026-11-08 12:25
+type: note
+status: seed
+tags:
+aliases: []
+---
+## Summary
 
-Tags: 
+
+## Notes
 
 - [ ] Use of an abbreviation improves readability, but before that, the significance should be mentioned. Also, once an abbreviation is mentioned, it is expected that it be referred to from the text.
 - [ ] Authors have used symbols in abstracts; it is advisable to avoid using such things, especially when the significance of the symbols is not mentioned. Also, it is recommended to use simple sentences instead of complex ones. As a sentence without proper punctuation makes a different sense, thus causing confusion when reading.

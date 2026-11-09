@@ -1,7 +1,18 @@
-2025/04/14  -  18:10
-status: 
+---
+created: 2025/04/14 18:10
+updated: 2026-11-08 12:27
+type: note
+status: seed
+tags:
+  - AI
+  - ML
+aliases: []
+---
+## Summary
 
-Tags: [[AI]]  [[machine learning]]
+
+## Notes
+
 
 Is a phenomenon in modern machine learning where models can fit noisy training data (overfit) yet achieve good generalization performance on unseen test data. It can happen especially in large models ( deep networks ). The model has to have more parameters than the data, also it works better in finite-dimensional data. overfitting can be classified into three categories: 
 1. Benign overfitting

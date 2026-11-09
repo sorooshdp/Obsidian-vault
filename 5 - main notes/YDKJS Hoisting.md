@@ -1,7 +1,14 @@
-2024/07/27  -  10:46
-
-Tags: [[hoisting]] [[js]]
-
+---
+created: 2024/07/27  -  10:46
+updated: 2026-11-09 22:41
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - hoisting
+aliases: []
+---
 # The compiler strikes again
 when you see `var a = 2` you probably think of that as one statement but the engine will first compile the code before interpreting, and sees it as two statements: `var a` and `a = 2` and the first statement is processed during the compilation phase. the second one is left in place for the execution phase. 
 it's also important to note hoisting is **per-scope**. 

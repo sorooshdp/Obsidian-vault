@@ -1,7 +1,14 @@
-2026/09/28  -  11:26
-status: 
+---
+created: 2026/09/28  -  11:26
+updated: 2026-11-09 22:45
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
-Tags: [[js]] 
 
 **Chapter 5: Prototypes** of _You Don't Know JS: this & Object Prototypes_ examines JavaScript's internal `[[Prototype]]` mechanism. It unpacks how property lookups work across object links, dispels misconceptions around "prototypal inheritance" and "constructors," and demonstrates how to properly wire objects together.
 

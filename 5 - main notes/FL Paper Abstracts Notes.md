@@ -1,7 +1,13 @@
-2026/01/18  -  23:23
-status: 
-
-Tags: [[Federated learning]] 
+---
+created: 2026/01/18  -  23:23
+updated: 2026-11-09 21:05
+type: note
+status: seed
+topic:
+tags:
+  - federated_learning
+aliases: []
+---
 
 ## Centralized Aggregations
 ### Communication-Efficient Learning of Deep Networks from Decentralized Data (Centralized Aggregation)

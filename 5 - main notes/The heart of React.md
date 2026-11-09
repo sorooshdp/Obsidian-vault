@@ -1,5 +1,14 @@
-
-tags: [[react]] [[DOM]]
+---
+created: 2026-11-09 22:37
+updated: 2026-11-09 22:37
+type: note
+status: seed
+topic:
+tags:
+  - DOM
+  - react
+aliases: []
+---
 
 ## reconciliation
 is the algorithm behind virtual DOM. react uses nodes to create an entire state of app, called current tree and then it gives it to rendering environment. when there is a change in our DOM react creates another tree called work-in-progress tree, it comperes these tress and only renders the different parts, then work in progress tree becomes current tree.

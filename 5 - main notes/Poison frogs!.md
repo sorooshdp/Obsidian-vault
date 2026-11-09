@@ -1,7 +1,16 @@
-2025/05/14  -  02:26
-status: 
-
-Tags: [[AI]] [[Data Poisoning]] [[machine learning]] [[security]]
+---
+created: 2025/05/14  -  02:26
+updated: 2026-11-09 22:25
+type: note
+status: seed
+topic:
+tags:
+  - AI
+  - database
+  - ML
+  - SEO
+aliases: []
+---
 
 **Data poisoning**: is an attack on machine learning models wherein the attacker adds examples to the training set to manipulate the behavior of the model at test time. These attacks happen at training time; they aim to manipulate the performance of a system by inserting carefully constructed poison instances into the training data. Classical poisoning attacks indiscriminately degrade test accuracy rather than targeting specific examples, making them easy to detect.
 

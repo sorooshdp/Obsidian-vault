@@ -1,7 +1,17 @@
-2025/06/05  -  20:32
-status: 
+---
+created: 2025/06/05  -  20:32
+updated: 2026-11-09 21:00
+type: note
+status: seed
+topic:
+tags:
+  - AI
+  - federated_learning
+  - ML
+  - security
+aliases: []
+---
 
-Tags: [[Federated learning]] [[AI]] [[machine learning]] [[security]] 
 
 Detect and Remove
 

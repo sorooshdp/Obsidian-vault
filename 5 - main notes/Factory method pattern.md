@@ -1,8 +1,14 @@
-2025/07/01  -  10:51
-status: 
-
-Tags: [[Design patterns]] [[software engineering]]
-
+---
+created: 2025/07/01  -  10:51
+updated: 2026-11-09 21:03
+type: note
+status: seed
+topic:
+tags:
+  - design_patterns
+  - software_engineering
+aliases: []
+---
 
 The **Factory Method pattern** provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created[5](https://refactoring.guru/design-patterns/factory-method). It centralizes creation of objects of a specific type, choosing one of several implementations[1](https://en.wikipedia.org/wiki/Creational_pattern).
 

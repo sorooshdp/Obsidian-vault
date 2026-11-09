@@ -1,3 +1,14 @@
+---
+created: 2024/08/08  -  14:04
+updated: 2026-11-09 20:53
+type: note
+status: seed
+topic:
+tags:
+  - css
+  - performance
+aliases: []
+---
 2024/08/08  -  14:04
 
 Tags: [[CSS]] [[Performance]]

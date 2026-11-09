@@ -1,7 +1,13 @@
-2026/09/15  -  12:47
-status: 
-
-Tags: [[js]]  
+---
+created: 2026/09/15  -  12:47
+updated: 2026-11-09 22:47
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
 ### 1. Object Syntax and Types
 

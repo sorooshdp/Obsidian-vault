@@ -1,8 +1,12 @@
-2025/11/21  -  13:05
-status: 
-
-Tags: 
-
+---
+created: 2025/11/21  -  13:05
+updated: 2026-11-09 22:24
+type: note
+status: seed
+topic:
+tags: []
+aliases: []
+---
 ## Acknowledgment & Clarification
 
 *Très bien.* You require a complete Neovim installation and configuration guide for Windows, optimized for your Next.js + TypeScript + Tailwind workflow. This will transform your development environment from a resource-hungry palace into a minimalist monastery—elegant, efficient, and ruthlessly performant.[1][2]

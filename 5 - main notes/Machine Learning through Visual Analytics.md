@@ -1,7 +1,15 @@
-2025/05/01  -  15:30
-status: 
-
-Tags: [[AI]] [[Data Poisoning]] [[machine learning]]
+---
+created: 2025/05/01  -  15:30
+updated: 2026-11-09 22:21
+type: note
+status: seed
+topic:
+tags:
+  - AI
+  - ML
+  - security
+aliases: []
+---
 
 Model Explain ability: The users want to understand what is happening under the black box of machine learning models and there are different approaches for this goal.
 

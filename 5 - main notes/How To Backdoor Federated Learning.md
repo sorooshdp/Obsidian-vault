@@ -1,7 +1,16 @@
-2025/05/01  -  17:39
-status: 
-
-Tags: [[AI]] [[Federated Learning]] [[machine learning]] [[security]]
+---
+created: 2025/05/01  -  17:39
+updated: 2026-11-09 21:07
+type: note
+status: seed
+topic:
+tags:
+  - AI
+  - federated_learning
+  - ML
+  - security
+aliases: []
+---
 
 Federated learning is generically vulnerable to model poisoning attack. neither defenses against data poisoning, nor anomaly detection can be used during federated learning because they require access to, respectively, the participants’ training data or their submitted model updates.
 

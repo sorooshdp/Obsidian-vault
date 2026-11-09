@@ -1,7 +1,20 @@
-2025/06/05  -  19:29
-status: 
+---
+created: 2025/06/05 19:29
+updated: 2026-11-08 12:23
+type: note
+status: seed
+tags:
+  - "#AI"
+  - "#ML"
+  - "#federated_learning"
+aliases: []
+---
 
-Tags: [[Federated learning]] [[AI]] [[machine learning]]
+## Summary
+
+
+## Notes
+
 
 ### Types of FL
 
@@ -55,7 +68,3 @@ Due to the wide range of attacks targeting FL—including data poisoning, model 
 - **Pre-aggregation:** Detect and filter malicious updates early.
 - **In-aggregation:** Use robust aggregation methods to reduce the impact of adversarial data.
 - **Post-aggregation:** Repair compromised models after training.
-
-
-
-# References

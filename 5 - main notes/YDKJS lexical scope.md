@@ -1,7 +1,15 @@
-2024/07/26  -  19:01
-status: 
-
-Tags: [[js]] [[closures]] [[scope]]
+---
+created: 2024/07/26  -  19:01
+updated: 2026-11-09 22:42
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - closures
+  - scope
+aliases: []
+---
 
 # lexical scope
 lexical scope is based on where you define the variables and blocks at write time. engine looks for variables in the scope and if it can't find it in that scope, goes one level up and stops once it finds the first match.  

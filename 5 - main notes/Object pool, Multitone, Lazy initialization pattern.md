@@ -1,8 +1,14 @@
-2025/07/01  -  11:13
-status: 
-
-Tags: [[Design patterns]] [[software engineering]]
-
+---
+created: 2025/07/01  -  11:13
+updated: 2026-11-09 22:25
+type: note
+status: seed
+topic:
+tags:
+  - design_patterns
+  - software_engineering
+aliases: []
+---
 
 The **Object Pool pattern** uses a set of initialized objects kept ready for use rather than allocating and destroying them on demand[13](https://en.wikipedia.org/wiki/Object_pool_pattern). It's particularly effective when object creation is expensive and objects can be reused[14](https://designpatternsphp.readthedocs.io/en/latest/Creational/Pool/README.html).
 ## Key Benefits and Use Cases

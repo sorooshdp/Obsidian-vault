@@ -1,7 +1,13 @@
-2025/04/15  -  16:15
-status: 
-
-Tags: [[Performance]] 
+---
+created: 2025/04/15  -  16:15
+updated: 2026-11-09 22:11
+type: note
+status: seed
+topic:
+tags:
+  - performance
+aliases: []
+---
 
 Good responsiveness means that a page responds quickly to interactions. When a page responds to an interaction, the browser presents _visual feedback_ in the next frame that it paints. Visual feedback tells you if, for example, an item you add to an online shopping cart is indeed being added, whether a mobile navigation menu has opened, if a login form's contents are being authenticated by the server, and so forth.
 

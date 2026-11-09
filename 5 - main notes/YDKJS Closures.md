@@ -1,7 +1,14 @@
-2026/10/09  -  17:31
-status: 
-
-Tags: [[js]] [[closures]]
+---
+created: 2026/10/09  -  17:31
+updated: 2026-11-09 22:39
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - closures
+aliases: []
+---
 
 In JavaScript, **closure** is widely considered one of the most important yet frequently misunderstood concepts. As author Kyle Simpson emphasizes in *You Don't Know JS: Scope & Closures*, closure is not a special opt-in feature or a complex syntax you have to opt into—it is a direct, natural consequence of writing code in a **lexically scoped** environment where functions are first-class values.
 

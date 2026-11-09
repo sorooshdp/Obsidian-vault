@@ -1,9 +1,13 @@
-2026/09/12  -  20:18
-status: 
-
-Tags: [[Performance]] [[Browser]]
-
-
+---
+created: 2026/09/12 20:18
+updated: 2026-11-09 20:49
+type: note
+status: seed
+topic:
+tags:
+  - "#performance"
+  - "#browser"
+aliases: []
 ---
 
 ### **1. Core Problem: The Main Thread Bottleneck**

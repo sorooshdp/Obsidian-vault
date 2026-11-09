@@ -1,7 +1,14 @@
-2025/07/01  -  11:05
-status: 
-
-Tags: [[Design patterns]] [[software engineering]]
+---
+created: 2025/07/01  -  11:05
+updated: 2026-11-09 22:26
+type: note
+status: seed
+topic:
+tags:
+  - design_patterns
+  - software_engineering
+aliases: []
+---
 
 The **Prototype pattern** allows copying existing objects without making your code dependent on their classes[11](https://refactoring.guru/design-patterns/prototype). It's particularly useful when object creation is expensive and you have similar objects already existing[12](https://www.digitalocean.com/community/tutorials/prototype-design-pattern-in-java).
 

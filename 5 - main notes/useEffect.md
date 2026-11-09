@@ -1,6 +1,14 @@
-2024/08/16  -  02:38
+---
+created: 2024/08/16  -  02:38
+updated: 2026-11-09 22:38
+type: note
+status: seed
+topic:
+tags:
+  - react
+aliases: []
+---
 
-Tags: [[react]] [[hooks]] 
 
 # `useEffect`
 ```js

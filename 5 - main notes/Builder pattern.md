@@ -1,7 +1,19 @@
-2025/07/01  -  10:56
-status: 
+---
+created: 2026-11-09 20:50
+updated: 2026-11-09 20:50
+type: note
+status: seed
+topic:
+tags:
+  - "#design_patterns"
+  - "#software_engineering"
+aliases: []
+---
 
-Tags: [[Design patterns]] [[software engineering]]
+## Summary
+
+
+## Notes
 
 The **Builder pattern** separates the construction of complex objects from their representation, allowing the same construction process to create different representations[2](https://refactoring.guru/design-patterns/creational-patterns). It's particularly useful when dealing with objects that have many optional parameters[4](https://www.baeldung.com/creational-design-patterns).
 

@@ -1,6 +1,14 @@
-2024/07/27  -  20:04
-
-Tags: [[js]] [[modules]] 
+---
+created: 2024/07/27  -  20:04
+updated: 2026-11-09 22:48
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - modules
+aliases: []
+---
 
 Modules require two key characteristics:
 1. an outer wrapping function being invoked, to create the enclosing scope.

@@ -1,8 +1,13 @@
-2026/09/28  -  12:05
-status: 
-
-Tags: [[js]] 
-
+---
+created: 2026/09/28  -  12:05
+updated: 2026-11-09 22:30
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
 # REGEX CHEAT SHEET
 

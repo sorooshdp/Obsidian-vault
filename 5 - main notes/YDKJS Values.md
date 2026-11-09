@@ -1,6 +1,13 @@
-2024/07/29  -  11:58
-
-Tags: [[js]] [[values]] 
+---
+created: 2024/07/29  -  11:58
+updated: 2026-11-09 22:44
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
 Warning: Using delete on an array value will remove that slot from the array , but even if you remove the final element, it does not update the length property, so be careful!
 

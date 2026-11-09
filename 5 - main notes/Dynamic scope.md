@@ -1,6 +1,14 @@
-2024/07/29  -  10:51
-
-Tags: [[scope]]  [[js]]
+---
+created: 2024/07/29  -  10:51
+updated: 2026-11-09 21:03
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - scope
+aliases: []
+---
 
 dynamic scope doesn't concern itself by how and where functions are scoops are declared, but rather where they are called from. in other words, the scope chain is based on the call-stack, not the nesting of scopes in code.
 

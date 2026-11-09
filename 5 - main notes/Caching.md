@@ -1,8 +1,15 @@
-2025/11/27  -  18:50
-status: 
-
-Tags: [[Performance]] [[optimization]] [[SQL]]
-
+---
+created: 2025/11/27 18:50
+updated: 2026-11-09 20:51
+type: note
+status: seed
+topic:
+tags:
+  - "#performance"
+  - "#optimization"
+  - "#sql"
+aliases: []
+---
 # Caching
 everything that we do on with our computer requires data from mobile apps to web apps. When designing systems to store and retrieve data, we are faced with trade-offs between **capacity**, **speed**, **cost** , and durability. For a given budget, you can either get a large amount of slower data storage, or a small amount of faster storage. Engineers get around this by combining the two: Pair a large amount of cheaper slow storage with a small amount of expensive fast storage. Data that is accessed more _frequently_ can go in the fast storage, and the other data that we use less often goes in the slow storage. This is the core principle of caching.
 

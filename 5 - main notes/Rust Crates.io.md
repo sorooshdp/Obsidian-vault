@@ -2,9 +2,9 @@
 created: 2026-10-17 17:53
 updated: 2026-10-17 17:53
 type: note
-status: seed # seed | developing | mature
+status: seed
 tags:
-  - web/javascript
+  - rust
 aliases: []
 ---
 

@@ -1,10 +1,15 @@
-2026/06/29  -  21:08
-status: 
-
-Tags: [[Data Structures]] 
+---
+created: 2026/06/29  -  21:08
+updated: 2026-11-09 22:33
+type: note
+status: seed
+topic:
+tags:
+  - data_structures
+aliases: []
+---
 
 Here’s a concise, exam‑ready summary of all the key sorting algorithms.  
-Master this table and you’ll handle almost any Arshad question on sorting.
 
 ---
 
@@ -71,8 +76,5 @@ Master this table and you’ll handle almost any Arshad question on sorting.
 | Counting | O(n + k) | O(n + k) | Yes |
 | Radix | O(d·(n+b)) | O(n + b) | Yes |
 | Bucket | O(n²) (worst) | O(n) | Depends |
-
-Use this sheet for last‑minute review. Let me know if you’d like a set of typical multiple‑choice questions to test this knowledge.
-
 
 # References

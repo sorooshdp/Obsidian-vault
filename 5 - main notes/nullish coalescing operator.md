@@ -1,7 +1,13 @@
-2025/09/01  -  02:36
-status: 
-
-Tags: [[js]] 
+---
+created: 2025/09/01  -  02:36
+updated: 2026-11-09 22:24
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
 The `??` operator in JavaScript is called the **nullish coalescing operator**.
 

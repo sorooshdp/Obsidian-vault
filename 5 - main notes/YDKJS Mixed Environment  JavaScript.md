@@ -1,8 +1,13 @@
-2025/09/14  -  18:50
-status: 
-
-Tags: [[js]] 
-
+---
+created: 2025/09/14  -  18:50
+updated: 2026-11-09 22:43
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 ## `<script> `
 
 Most browser-viewed websites/applications have more than one file that contains their code, and it's common to have a few or several elements in the page that load these files separately, and even a few inline-code elements as well. But do these separate files/code snippets constitute separate programs or are they collectively one JS program? The (perhaps surprising) reality is they act more like independent JS programs in most, but not all, respects. The one thing they share is the single global object ( window in the browser), which means multiple files can append their code to that shared namespace and they can all interact.

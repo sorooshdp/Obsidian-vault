@@ -1,5 +1,15 @@
-
-tags:  [[js]] [[scope]] [[closures]]
+---
+created: 2026-11-09 22:45
+updated: 2026-11-09 22:45
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - scope
+  - closures
+aliases: []
+---
 
 ## compiler theory
 Let's just say, for simplicity's sake, that any snippet of JavaScript has to be compiled before (usually right before!) it's executed. So, the JS compiler will take the program `var a = 2;` and compile it first, and then be ready to execute it, usually right away.

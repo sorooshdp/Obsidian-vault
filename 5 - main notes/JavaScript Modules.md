@@ -1,7 +1,14 @@
-2025/08/18  -  16:31
-status: 
+---
+created: 2025/08/18  -  16:31
+updated: 2026-11-09 22:12
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
-Tags: [[js]] 
 ## What Is a Module in JavaScript?
 
 A **module** is a self-contained block of code (usually a file) that encapsulates functionality and exposes only select parts for outside use. Modules help improve code organization, avoid polluting the global scope, and make testing or maintaining large codebases more manageable.[developer.mozilla+1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)

@@ -1,4 +1,15 @@
-2024/07/27  -  00:10
+---
+created: 2024/07/27  -  00:10
+updated: 2026-11-09 22:26
+type: note
+status: seed
+topic:
+tags:
+  - software_engineering
+  - security
+aliases: []
+---
+
 
 Tags:  [[software design]] [[security]]
 

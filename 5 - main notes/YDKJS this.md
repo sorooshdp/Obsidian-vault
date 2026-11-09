@@ -1,7 +1,13 @@
-2025/09/19  -  22:53
-status: 
-
-Tags: [[js]] [[this-keyword]]
+---
+created: 2025/09/19  -  22:53
+updated: 2026-11-09 22:45
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
 One of the most confused mechanisms in JavaScript is the `this` keyword. It's a special identifier keyword that's automatically defined in the scope of every function, but what exactly it refers to bedevils even seasoned JavaScript developers.
 

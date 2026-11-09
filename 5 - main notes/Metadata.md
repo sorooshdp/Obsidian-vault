@@ -1,7 +1,14 @@
-2025/10/19  -  17:54
-status: 
-
-Tags: [[Browser]] [[SEO]]
+---
+created: 2025/10/19  -  17:54
+updated: 2026-11-09 22:24
+type: note
+status: seed
+topic:
+tags:
+  - browser
+  - SEO
+aliases: []
+---
 
 In web development, **metadata** is data that provides information about your webpages. It's not visible on the page itself but is embedded within the `<head>` section of the HTML. This behind-the-scenes information is crucial for search engines and social media platforms to understand your page's content [1](https://nextjs.org/learn/dashboard-app/adding-metadata).
 

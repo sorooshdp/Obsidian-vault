@@ -1,7 +1,14 @@
-2026/08/13  -  12:23
-status: 
+---
+created: 2026/08/13  -  12:23
+updated: 2026-11-09 21:06
+type: note
+status: seed
+topic:
+tags:
+  - software_engineering
+aliases: []
+---
 
-Tags: [[software engineering]] 
 A **foreign function interface** (**FFI**) is a mechanism by which a program written in one [programming language](https://en.wikipedia.org/wiki/Programming_language "Programming language") can call [interoperable](https://en.wikipedia.org/wiki/Language_interoperability "Language interoperability") routines or make use of services written or compiled in another one. An FFI is often used in contexts where calls are made into a binary [dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library "Dynamic-link library").
 
 The primary function of a foreign function interface is to mate the semantics and [calling conventions](https://en.wikipedia.org/wiki/Calling_convention "Calling convention") of one programming language (the _host_ language, or the language which defines the FFI), with the semantics and conventions of another (the _guest_ language). This process must also take into consideration the [runtime environments](https://en.wikipedia.org/wiki/Runtime_environment "Runtime environment") and [application binary interfaces](https://en.wikipedia.org/wiki/Application_binary_interface "Application binary interface") of both. This can be done in several ways:

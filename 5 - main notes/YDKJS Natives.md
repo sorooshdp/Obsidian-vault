@@ -1,7 +1,13 @@
-2024/08/02  -  19:36
-
-Tags: [[js]] [[wrappers]]
-
+---
+created: 2024/08/02  -  19:36
+updated: 2026-11-09 22:48
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 The result of the constructor form of value creation `new String("abc")` is an object wrapper around the primitive `( "abc" )` value.
 ### Natives
 In JavaScript, several built-in functions, commonly referred to as "natives," provide essential functionality for the language. These include `String()`, `Number()`, `Boolean()`, `Array()`, `Object()`, `Function()`, `RegExp()`, `Date()`, `Error()`, and `Symbol()`. Each of these natives can be used as constructors, but they often create objects rather than simple primitives.

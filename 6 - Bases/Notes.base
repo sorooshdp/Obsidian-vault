@@ -11,3 +11,10 @@ views:
   - type: cards
     name: View
     cardSize: 280
+  - type: kanban
+    name: kanban
+    order:
+      - file.name
+    sort: []
+    columnWidth: 320
+    imageAspectRatio: 0.6

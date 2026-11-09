@@ -1,8 +1,14 @@
-2024/11/14  -  00:01
-status: 
-
-Tags: [[Browser]] [[Performance]]
-
+---
+created: 2024/11/14 00:01
+updated: 2026-11-09 20:48
+type: note
+status: seed
+topic:
+tags:
+  - "#browser"
+  - "#performance"
+aliases: []
+---
 ## Navigation and Response
 
 - The first step in loading a webpage is navigation, where the browser locates the server hosting the webpage. This involves a DNS lookup to get the server’s IP address.

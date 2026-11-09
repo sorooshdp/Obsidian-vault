@@ -1,7 +1,16 @@
-2025/12/18  -  17:54
-status: 
+---
+created: 2025/12/18  -  17:54
+updated: 2026-11-09 20:56
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - memory
+  - garbage_collection
+aliases: []
+---
 
-Tags: [[js]] [[memory]]  [[Garbage Collection]]
 
 Although JavaScript does not directly expose the garbage collector API, the language offers several data structures that indirectly observe garbage collection and can be used to manage memory usage.
 

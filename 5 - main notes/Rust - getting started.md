@@ -7,7 +7,6 @@ tags:
   - rust
 aliases: []
 ---
-
 ## Summary
 
 Here is an in-depth guide through the **Introduction** and **Chapter 1: Getting Started** of *The Rust Programming Language*, covering all foundational concepts, workflow conventions, and essential code examples.

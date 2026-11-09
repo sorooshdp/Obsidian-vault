@@ -1,7 +1,15 @@
-2025/07/01  -  11:26
-status: 
+---
+created: 2025/07/01 11:26
+updated: 2026-11-09 21:01
+type: note
+status: seed
+topic:
+tags:
+  - design_patterns
+  - software_engineering
+aliases: []
+---
 
-Tags: [[Design patterns]] [[software engineering]]
 ## Object Pool vs Prototype
 - **Object Pool**: Focuses on **reusing existing instances** to limit object allocation[20](https://stackoverflow.com/questions/46189914/what-is-the-difference-between-pool-and-prototype-patterns)
 - **Prototype**: Provides a way to **specify how new objects are created** through cloning[20](https://stackoverflow.com/questions/46189914/what-is-the-difference-between-pool-and-prototype-patterns)

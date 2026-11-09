@@ -1,7 +1,14 @@
-2025/09/01  -  02:18
-status: 
-
-Tags: [[react]] [[Performance]]
+---
+created: 2025/09/01  -  02:18
+updated: 2026-11-09 22:27
+type: note
+status: seed
+topic:
+tags:
+  - react
+  - performance
+aliases: []
+---
 
 **React batching** is a mechanism where React groups multiple state updates together and processes them in a single render cycle, rather than rendering after every individual state change. This approach increases performance by minimizing unnecessary renders and ensures your UI stays in sync with the latest state.[Geeks for Geeks](https://www.geeksforgeeks.org/reactjs/what-is-automatic-batching-in-react-18/)[Geeks for Geeks](https://www.geeksforgeeks.org/reactjs/what-is-automatic-batching-in-react-18/)
 

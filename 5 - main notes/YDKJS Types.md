@@ -1,7 +1,14 @@
-2024/07/29  -  11:34
-
-Tags: [[types]] [[js]] 
-
+---
+created: 2024/07/29  -  11:34
+updated: 2026-11-09 22:44
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - types
+aliases: []
+---
 ## Built-in Types
 JavaScript has seven built-in types, six of which are primitives:
 - Null

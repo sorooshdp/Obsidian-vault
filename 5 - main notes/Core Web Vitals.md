@@ -1,8 +1,13 @@
-2025/04/12  -  10:16
-status: 
-
-Tags: [[Performance]]  
-
+---
+created: 2025/04/12 10:16
+updated: 2026-11-09 20:53
+type: note
+status: seed
+topic:
+tags:
+  - performance
+aliases: []
+---
 ## Largest Contentful Paint (LCP)
 
 Largest Contentful Paint measures perceived load speed and marks the point in the page load timeline when the page's main content has likely loaded. In simpler terms, LCP tracks how quickly the largest visible content element (usually an image, video, or large text block) appears on the screen.

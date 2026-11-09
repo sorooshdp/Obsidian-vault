@@ -1,7 +1,13 @@
-2025/08/14  -  12:18
-status: 
-
-Tags: [[react]]
+---
+created: 2025/08/14  -  12:18
+updated: 2026-11-09 22:29
+type: note
+status: seed
+topic:
+tags:
+  - react
+aliases: []
+---
 
 Here are some important notes about how React Hooks actually work:
 

@@ -1,7 +1,14 @@
-2025/11/28  -  15:45
-status: 
-
-Tags: [[js]] [[SEO]]
+---
+created: 2025/11/28  -  15:45
+updated: 2026-11-09 22:12
+type: note
+status: seed
+topic:
+tags:
+  - SEO
+  - web/javascript
+aliases: []
+---
 
 **JSON-LD** is a lightweight **Linked Data** format[1](https://json-ld.org/). It allows you to add context to standard JSON, transforming it from a simple data-interchange format into a powerful tool for conveying meaning and establishing relationships between entities on the web[2](https://medium.com/fluree/what-is-json-ld-e6ddaf1611f7).
 

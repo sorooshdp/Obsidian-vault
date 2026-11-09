@@ -1,7 +1,13 @@
-2026/08/13  -  11:49
-status: 
-
-Tags: [[software engineering]] 
+---
+created: 2026/08/13  -  11:49
+updated: 2026-11-09 22:38
+type: note
+status: seed
+topic:
+tags:
+  - software_engineering
+aliases: []
+---
 
 **Trust boundary** is a term used in [computer science](https://en.wikipedia.org/wiki/Computer_science "Computer science") and [security](https://en.wikipedia.org/wiki/Computer_security "Computer security") which describes a boundary where program data or execution changes its level of "trust", or where two [principals](https://en.wikipedia.org/wiki/Principal_\(computer_security\) "Principal (computer security)") with different capabilities exchange data or commands. The term refers to any distinct boundary where within a [system](https://en.wikipedia.org/wiki/System "System") all sub-systems (including data) have equal trust.[[1]] An example of an execution trust boundary would be where an application attains an increased [privilege level](https://en.wikipedia.org/wiki/Privilege_\(computing\) "Privilege (computing)") (such as [root](https://en.wikipedia.org/wiki/Superuser "Superuser")).[[2]] A data trust boundary is a point where data comes from an untrusted source--for example, user input or a [network socket](https://en.wikipedia.org/wiki/Network_socket "Network socket").[[3]]
 

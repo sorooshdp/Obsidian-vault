@@ -1,4 +1,14 @@
-2025/04/10  -  18:36
+---
+created: 2025/04/10  -  18:36
+updated: 2026-11-09 20:59
+type: note
+status: seed
+topic:
+tags:
+  - software_engineering
+  - web/javascript
+aliases: []
+---
 
 Tags: [[js]] [[software engineering]]
 

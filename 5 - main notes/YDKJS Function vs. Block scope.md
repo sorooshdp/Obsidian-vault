@@ -1,10 +1,25 @@
-2024/07/26  -  19:35
-
-Tags: [[js]] [[scope]] 
-
+---
+created: 2024/07/26  -  19:35
+updated: 2026-11-09 22:41
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - scope
+aliases: []
+---
 # Function vs. Block scope
 Scope defines the accessibility of variables and functions at different parts of your code.
-Functions are the most common unit of scope in JavaScript. Variables and functions that are declared inside another function are essentially "hidden" from any of the enclosing "scopes", which is an intentional design principle of good software.
+Functions are the most common unit of scope in JavaScript. Variables and functions that are declared insi
+## Summary
+
+
+## Notes
+
+
+## References
+de another function are essentially "hidden" from any of the enclosing "scopes", which is an intentional design principle of good software.
 
 ## try / catch 
 It's a very little known fact that JavaScript in ES3 specified the variable declaration in the catch clause of a try/catch to be block-scoped to the catch block.

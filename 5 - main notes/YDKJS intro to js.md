@@ -1,7 +1,14 @@
+---
+created: 2026-11-09 22:42
+updated: 2026-11-09 22:42
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
 
-status: 
-
-Tags:  [[js]]
 # intro to js
 
 js has typed values not typed variables. 

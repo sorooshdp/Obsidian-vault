@@ -1,6 +1,14 @@
-2025/04/07  -  18:08
-
-Tags: [[js]] [[scope]]  
+---
+created: 2025/04/07  -  18:08
+updated: 2026-11-09 22:20
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+  - scope
+aliases: []
+---
 
 When the JavaScript Engine executes code, it needs to find variables. This process involves different types of lookups: LHS (Left-hand Side) and RHS (Right-hand Side). These terms originate from the sides of an assignment operation.
 
