@@ -26,7 +26,7 @@ Here are some important notes about how React Hooks actually work:
     ◦ When you update state, it triggers a re-render of the component.
     ◦ React forwards the `useState` call to its renderer using a special `currentDispatcher` field, which is set internally by the renderer (like React DOM) before the component is called.
 
-• **useEffect****'s synchronization lifecycle and dependencies:**
+• **[[useEffect]]'s synchronization lifecycle and dependencies:**
     ◦ `useEffect` is called with a callback function and an optional dependency array.
     ◦ The callback runs either always (if no dependencies) or only if the dependencies have changed.
     ◦ React stores the "old" dependencies (similar to how state is stored, using the same `hooks` array and index mechanism) to compare them with the "current" dependencies.
@@ -44,3 +44,4 @@ Here are some important notes about how React Hooks actually work:
 
 
 # References
+![[useEffect#downsides of writing fetches in `useEffect`]]

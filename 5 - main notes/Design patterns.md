@@ -6,7 +6,7 @@ status: seed
 topic:
 tags:
   - design_patterns
-  - software_engineering
+  - software-engineering
 aliases: []
 ---
 A design pattern is a general, reusable solution to a commonly occurring problem in software design. It is not a finished piece of code but rather a blueprint or template that can be customized to solve a recurring design problem in a specific context. Unlike algorithms, which define precise steps to achieve a goal, design patterns provide a high-level description of how to structure code or system components to address particular challenges effectively[1](https://refactoring.guru/design-patterns/what-is-pattern)[2](https://sourcemaking.com/design_patterns)[3](https://en.wikipedia.org/wiki/Software_design_pattern).

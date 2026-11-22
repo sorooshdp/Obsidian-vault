@@ -6,7 +6,7 @@ status: seed
 topic:
 tags:
   - design_patterns
-  - software_engineering
+  - software-engineering
 aliases: []
 ---
 The **Singleton pattern** ensures that a class has only one instance while providing a global point of access to that instance[2](https://refactoring.guru/design-patterns/creational-patterns). It's one of the most commonly used creational patterns and is particularly valuable when you need exactly one instance of a class throughout the application[3](https://www.initgrep.com/posts/design-patterns/thread-safety-in-java-singleton-pattern).

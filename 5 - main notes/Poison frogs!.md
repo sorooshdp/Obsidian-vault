@@ -6,7 +6,6 @@ status: seed
 topic:
 tags:
   - AI
-  - database
   - ML
   - SEO
 aliases: []

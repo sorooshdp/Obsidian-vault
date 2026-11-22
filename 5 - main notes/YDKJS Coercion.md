@@ -76,7 +76,7 @@ b; // "42"
 d; // 3.14
 ```
 
-Calling `a.toString()` is ostensibly explicit (pretty clear that "`toString`" means "to a string"), but there's some hidden implicitness here. like `toString()` cannot be called on a primitive value 42 . So JS automatically "boxes" (see Chapter 3) 42 in an object wrapper, so that `toString()` can be called against the object. In other words, you might call it "explicitly implicit." +c here is showing the unary operator form (operator with only one operand) of the + operator. Instead of performing mathematic addition (or string concatenation -- see below), the unary + explicitly coerces its operand ( c ) to a number value.
+Calling `a.toString()` is ostensibly explicit (pretty clear that "`toString`" means "to a string"), but there's some hidden implicitness here. like `toString()` cannot be called on a primitive value 42 . So JS automatically So JS automatically "boxes" (see [[YDKJS Natives#Boxing wrappers|Boxing wrappers]]) 42 in an object wrapper, so that `toString()` can be called against the object. In other words, you might call it "explicitly implicit." +c here is showing the unary operator form (operator with only one operand) of the + operator. Instead of performing mathematic addition (or string concatenation -- see below), the unary + explicitly coerces its operand ( c ) to a number value.
 
 ## ~ 
 

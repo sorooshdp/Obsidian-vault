@@ -3,26 +3,33 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "tag:#rust  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag: #rust  ",
+      "query": "tag:#web/javascript  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "tag:#software-engineering  ",
+      "color": {
+        "a": 1,
+        "rgb": 943284
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0.1,
   "nodeSizeMultiplier": 1.65805045157272,
@@ -32,6 +39,6 @@
   "repelStrength": 15.6366004558776,
   "linkStrength": 1,
   "linkDistance": 213,
-  "scale": 0.09886547550352028,
+  "scale": 0.05228122176618826,
   "close": false
 }

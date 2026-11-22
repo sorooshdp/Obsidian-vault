@@ -6,6 +6,7 @@ status: seed
 tags:
   - rust
 aliases: []
+topic: "[[Rust]]"
 ---
 
 ## Summary

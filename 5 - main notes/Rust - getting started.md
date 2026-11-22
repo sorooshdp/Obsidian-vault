@@ -6,6 +6,7 @@ status:
 tags:
   - rust
 aliases: []
+topic: "[[Rust]]"
 ---
 ## Summary
 

@@ -37,7 +37,7 @@ When ++ is used in the prefix position as ++a , its side effect (incrementing a 
 { foo: bar() }
 ```
 
-A lot of developers assume that the { .. } pair is just a standalone doesn't get assigned anywhere. But it's actually entirely different. Here, object literal that { .. } is just a regular code block. It's not very idiomatic in JavaScript (much more so in other languages!) to have a standalone { .. } block like that, but it's perfectly valid JS grammar. It can be especially helpful when combined with let block-scoping declarations (see the Scope & Closures title in this series).
+A lot of developers assume that the { .. } pair is just a standalone doesn't get assigned anywhere. But it's actually entirely different. Here, object literal that { .. } is just a regular code block. It's not very idiomatic in JavaScript (much more so in other languages!) to have a standalone { .. } block like that, but it's perfectly valid JS grammar. It can be especially helpful when combined with [[YDKJS Function vs. Block scope|let block-scoping declarations]] (see [[YDKJS scope & closures]]).
 
 ```js
 function foo() { // `bar` labeled-block

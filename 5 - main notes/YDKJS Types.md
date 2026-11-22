@@ -7,7 +7,8 @@ topic:
 tags:
   - web/javascript
   - types
-aliases: []
+aliases:
+  - "[types]"
 ---
 ## Built-in Types
 JavaScript has seven built-in types, six of which are primitives:

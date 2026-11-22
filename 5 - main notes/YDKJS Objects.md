@@ -83,7 +83,7 @@ Interactions with object properties trigger default internal specification algor
 
 ### 7. Duplicating Objects
 
-Copying an object is highly complex because of the choice between a **shallow copy** (which preserves references to nested objects) and a **deep copy** (which can run into infinite circular duplication loops). ES5 introduced **`Object.assign(..)`**, which performs a shallow, `=` style copy of all enumerable, owned keys from source objects to a target object.
+Copying an object is highly complex because of the choice between a **[[Deep Copy vs. Shallow Copy#Shallow Copy Defined|shallow copy]]** and a **[[Deep Copy vs. Shallow Copy#Deep Copy Defined|deep copy]]** (which can run into infinite circular duplication loops). ES5 introduced **`Object.assign(..)`**, which performs a shallow, `=` style copy of all enumerable, owned keys from source objects to a target object.
 
 ---
 

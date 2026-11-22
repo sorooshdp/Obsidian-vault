@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"f8acade173a59fab","x":-680,"y":-510,"width":400,"height":400,"type":"file","file":"5 - main notes/Inference attack.md"},
+		{"id":"1275e4824f586bf6","x":-200,"y":-510,"width":400,"height":400,"type":"file","file":"5 - main notes/How To Backdoor Federated Learning.md"},
+		{"id":"c30018e5656b3134","type":"file","file":"5 - main notes/A Survey of Security Strategies in Federated Learning.md","x":287,"y":-510,"width":400,"height":400},
+		{"id":"f8b32799dc488c8f","x":800,"y":-510,"width":400,"height":400,"type":"file","file":"5 - main notes/Defenses against Model and Data Attacks.md"},
+		{"id":"5fff32036b621780","type":"file","file":"5 - main notes/Federated learning.md","x":800,"y":0,"width":400,"height":400},
+		{"id":"efeb1239e4b55d5b","type":"file","file":"5 - main notes/Poison frogs!.md","x":287,"y":0,"width":400,"height":400}
+	],
+	"edges":[]
+}

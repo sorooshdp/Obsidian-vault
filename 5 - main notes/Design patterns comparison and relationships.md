@@ -6,21 +6,21 @@ status: seed
 topic:
 tags:
   - design_patterns
-  - software_engineering
+  - software-engineering
 aliases: []
 ---
 
-## Object Pool vs Prototype
+## [[Object pool, Multitone, Lazy initialization pattern|Object Pool]] vs [[Prototype pattern|Prototype]]
 - **Object Pool**: Focuses on **reusing existing instances** to limit object allocation[20](https://stackoverflow.com/questions/46189914/what-is-the-difference-between-pool-and-prototype-patterns)
 - **Prototype**: Provides a way to **specify how new objects are created** through cloning[20](https://stackoverflow.com/questions/46189914/what-is-the-difference-between-pool-and-prototype-patterns)
 - **Relationship**: Object pools can use Prototype pattern to create initial instances[21](https://sourcemaking.com/design_patterns/creational_patterns)
 
-## Singleton vs Multitone
+## ## [[Singleton pattern|Singleton]] vs [[Object pool, Multitone, Lazy initialization pattern#Multiton Pattern|Multitone]]
 - **Singleton**: **One instance per application**[17](https://java-design-patterns.com/patterns/multiton/)
 - **Multitone**: **One instance per key** with controlled access[17](https://java-design-patterns.com/patterns/multiton/)
 - **Use Case**: Multitone is useful for managing named resources like printer management systems[17](https://java-design-patterns.com/patterns/multiton/)
 
-## Factory Method vs Abstract Factory
+## ## [[Factory method pattern|Factory Method vs Abstract Factory]]
 - **Factory Method**: Creates **single products** from one family[5](https://refactoring.guru/design-patterns/factory-method)
 - **Abstract Factory**: Creates **families of related products**[7](https://java-design-patterns.com/patterns/abstract-factory/)
 - **Complexity**: Abstract Factory handles multiple product hierarchies[9](http://st.inf.tu-dresden.de/files/teaching/dpf/caisin-CreationalPatterns.pdf)

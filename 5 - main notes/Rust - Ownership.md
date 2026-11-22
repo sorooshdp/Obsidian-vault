@@ -6,6 +6,7 @@ status: seed
 tags:
   - rust
 aliases: []
+topic: "[[Rust]]"
 ---
 
 ## Summary
@@ -20,10 +21,10 @@ Chapter 4 of *The Rust Programming Language*, titled **Understanding Ownership**
 
 In traditional languages, memory is managed either manually (`malloc`/`free`) or automatically via dynamic garbage collection. Rust uses a third approach: memory is managed through an **ownership system** governed by strict rules that the compiler checks at compile time with zero runtime overhead.
 
-#### **The Three Rules of Ownership:**
-1. **Each value in Rust has a variable called its owner**.
-2. **There can be only one owner at a time**.
-3. **When the owner goes out of scope, the value will be dropped**.
+> [!important] The Three Rules of Ownership
+> 1. Each value in Rust has a variable called its owner.
+> 2. There can be only one owner at a time.
+> 3. When the owner goes out of scope, the value will be dropped.
 
 #### **Variable Scope and RAII**
 A variable is valid from the moment it is declared until its scope ends. When a complex data type allocated on the heap (such as `String`) goes out of scope, Rust automatically calls a special function named **`drop`** at the closing brace (`}`) to return that memory to the operating system. This pattern is known as **Resource Acquisition Is Initialization (RAII)**.

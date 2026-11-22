@@ -34,11 +34,13 @@ function ChatRoom({ roomId }) {
 
 - Effects **only run on the client.** They don’t run during server rendering.
 
-downsides of writing fetches in `useEffect`:
+# downsides of writing fetches in `useEffect`:
+
 - **Effects don’t run on the server.** This means that the initial server-rendered HTML will only include a loading state with no data.
 - **Fetching directly in Effects makes it easy to create “network waterfalls”.** 
 - **Fetching directly in Effects usually means you don’t preload or cache data.** For example, if the component unmounts and then mounts again, it would have to fetch the data again.
 - **It’s not very ergonomic.** There’s quite a bit of boilerplate code involved when writing `fetch` calls in a way that doesn’t suffer from bugs like [race conditions.](https://maxrozen.com/race-conditions-fetching-data-react-with-useeffect)
+
 If your Effect truly doesn’t use any reactive values, it will only run **after the initial render.**
 If you pass no dependency array at all, your Effect runs **after every single render (and re-render)** of your component.
 # References

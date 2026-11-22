@@ -15,7 +15,7 @@ aliases: []
 - **Single-Threaded Constraint**: JavaScript runs on a single-threaded event loop where code execution, event handling, DOM manipulation, style calculations, layout (reflow), and paint operations all line up on the same main thread.
 - **Frame Budget**: For smooth 60fps rendering, frames must be drawn every 16.6ms. Subtracting browser overhead leaves a practical developer budget of **~10ms per frame**.
 - **Long Tasks & Jank**: Tasks taking longer than **50ms** block the main thread, causing frozen UI, delayed input handling, and stuttering animations ("jank").
-- **Performance Metrics**: Core metrics like **INP** (Interaction to Next Paint) and **TBT** (Total Blocking Time) explicitly measure how long the main thread remains blocked.
+- **Performance Metrics**: Core metrics like **[[Interaction to Next Paint (INP) | INP]]** (Interaction to Next Paint) and **TBT** (Total Blocking Time) explicitly measure how long the main thread remains blocked.
 
 ---
 
@@ -33,7 +33,7 @@ aliases: []
 
 - **Concept**: Combine frequent, small operations into a single batch to avoid paying pipeline fixed costs repeatedly.
 - **Event Handling**: Use **debounce** (delay execution until input pauses) or **throttle** (limit execution frequency) for high-frequency events like typing, scrolling, or resizing.
-- **DOM Writes**: Batch DOM updates together or draw once per frame using `requestAnimationFrame` rather than re-rendering on every incoming data tick.
+- **DOM Writes**: Batch DOM updates together or draw once per frame using requestAnimationFrame (see [[The heart of React]] and [[React fiber]]) rather than re-rendering on every incoming data tick.
 
 #### **C. Prioritizing (Task Ordering)**
 

@@ -6,7 +6,7 @@ status: seed
 topic:
 tags:
   - "#design_patterns"
-  - "#software_engineering"
+  - "#software-engineering"
 aliases: []
 ---
 

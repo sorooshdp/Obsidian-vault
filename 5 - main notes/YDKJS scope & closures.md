@@ -21,14 +21,14 @@ Let's just say, for simplicity's sake, that any snippet of JavaScript has to be 
 - scope: another friend of engine, collects and maintains a look-up list of all the declared identifiers (variables), and enforces a strict set of rules as to how these are accessible to currently executing code.
 two distinct actions are taken for a variable assignment: First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.
 
-### RHS
+### [[LHS and RHS Lookups|RHS]]
 
 ```javascript
 console.log(a);
 ```
 The reference to `a` is an RHS reference, because nothing is being assigned to a here. Instead, we're looking-up to retrieve the value of a , so that the value can be passed to `console.log(..)`
 
-### LHS 
+### [[LHS and RHS Lookups|LHS]]
 
 ```js 
 a = 2;

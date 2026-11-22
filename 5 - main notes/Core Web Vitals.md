@@ -8,7 +8,7 @@ tags:
   - performance
 aliases: []
 ---
-## Largest Contentful Paint (LCP)
+## [[Largest Contentful Paint (LCP)]]
 
 Largest Contentful Paint measures perceived load speed and marks the point in the page load timeline when the page's main content has likely loaded. In simpler terms, LCP tracks how quickly the largest visible content element (usually an image, video, or large text block) appears on the screen.
 
@@ -25,7 +25,7 @@ LCP directly correlates with user perception of site speed. When users see the m
 - Large text blocks
 - Video thumbnails
 - Above-the-fold content
-## Interaction to Next Paint (INP)
+## [[Interaction to Next Paint (INP)]]
 
 Interaction to Next Paint measures responsiveness and quantifies the experience users feel when trying to interact with the page[2](https://web.dev/articles/defining-core-web-vitals-thresholds). INP evaluates how quickly a page responds to user interactions such as clicks, taps, and keyboard inputs. This metric has replaced the older First Input Delay (FID) metric because it more comprehensively measures the entire interaction latency rather than just the initial delay.
 

@@ -11,13 +11,24 @@
             "id": "e0ef6b210b5027e5",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "6 - Bases/Notes.base",
-                "viewName": "kanban"
+                "file": "1 - rough notes/Network chapter 8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-kanban-square",
-              "title": "Notes"
+              "icon": "lucide-file",
+              "title": "Network chapter 8"
             }
           }
         ],
@@ -55,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:data_base",
+                "query": "tag:software_engineering",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.89999389648438
+    "width": 246.30001831054688
   },
   "right": {
     "id": "e2b8786e16f6356c",
@@ -96,13 +107,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - rough notes/Network chapter 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
@@ -114,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3 - indexes/CS & Software Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -141,18 +154,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "5 - main notes/Cloud Computing - The Cloud Ecosystem.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "Outline"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 344.699951171875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,35 +183,36 @@
   },
   "active": "e0ef6b210b5027e5",
   "lastOpenFiles": [
-    "5 - main notes/Untitled.md",
-    "5 - main notes/YDKJS Mixed Environment  JavaScript.md",
-    "5 - main notes/YDKJS Modules.md",
-    "5 - main notes/YDKJS Natives.md",
-    "5 - main notes/YDKJS Objects.md",
-    "5 - main notes/YDKJS Prototypes.md",
-    "5 - main notes/YDKJS scope & closures.md",
-    "5 - main notes/YDKJS this.md",
-    "5 - main notes/YDKJS Types.md",
-    "5 - main notes/YDKJS Values.md",
-    "3 - indexes/Rust.md",
-    "5 - main notes/YDKJS lexical scope.md",
-    "5 - main notes/YDKJS intro to js.md",
-    "5 - main notes/YDKJS Hoisting.md",
-    "5 - main notes/YDKJS Grammar.md",
-    "5 - main notes/YDKJS Function vs. Block scope.md",
-    "5 - main notes/YDKJS Coercion.md",
-    "5 - main notes/YDKJS Closures.md",
-    "5 - main notes/YDKJS Class Objects.md",
-    "5 - main notes/useEffect.md",
-    "5 - main notes/Trust boundary.md",
+    "1 - rough notes/Network chapter 7.md",
+    "1 - rough notes/Network chapter 8.md",
+    "1 - rough notes/Network chapter 6.md",
+    "1 - rough notes/Network chapter 5.md",
+    "1 - rough notes/Network chapter 4.md",
+    "1 - rough notes/Cloud Computing - Parallel Processing.md",
+    "1 - rough notes/Network chapter 3.md",
+    "1 - rough notes/Pre-Push Frontend Checklist.md",
+    "1 - rough notes/Network chapter 2.md",
+    "1 - rough notes/network chapter 1.md",
+    "5 - main notes/Cloud Computing - The Cloud Ecosystem.md",
+    "5 - main notes/Academic Writing & Pre-Submission Checklist.md",
+    "3 - indexes/CS & Software Engineering.md",
+    "5 - main notes/A Survey of Security Strategies in Federated Learning.md",
+    "2 - tags/react.md",
+    "2 - tags/scope.md",
+    "2 - tags/modules.md",
+    "2 - tags/js.md",
+    "2 - tags/hoisting.md",
+    "2 - tags/DOM.md",
+    "2 - tags/closures.md",
+    "5 - main notes/Prototype pattern.md",
+    "5 - main notes/Builder pattern.md",
+    "5 - main notes/Singleton pattern.md",
+    "5 - main notes/Factory method pattern.md",
+    "5 - main notes/Object pool, Multitone, Lazy initialization pattern.md",
+    "5 - main notes/Untitled.canvas",
+    "6 - Bases/Notes.base",
     "5 - main notes/Untitled 1.base",
     "5 - main notes/Untitled.base",
-    "5 - main notes/The stack and the heap.md",
-    "5 - main notes/The heart of React.md",
-    "5 - main notes/SQL Injection.md",
-    "5 - main notes/SQL.md",
-    "5 - main notes/Sorting Algorithms Summary.md",
-    "6 - Bases/Notes.base",
     "JavaScript-Equality-Table.png",
     "Untitled.canvas",
     "4_5866472787106862848.mp4",

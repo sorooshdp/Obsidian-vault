@@ -6,7 +6,8 @@ status: seed
 topic:
 tags:
   - web/javascript
-aliases: []
+aliases:
+  - "[this]"
 ---
 
 One of the most confused mechanisms in JavaScript is the `this` keyword. It's a special identifier keyword that's automatically defined in the scope of every function, but what exactly it refers to bedevils even seasoned JavaScript developers.

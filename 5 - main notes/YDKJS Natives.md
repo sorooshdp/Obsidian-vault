@@ -19,9 +19,11 @@ console.log(a.toUpperCase()); // "ABC"
 ```
 ***never ever, under any circumstances***, should you intentionally create and use these exotic empty-slot arrays. Just don't do it. They're nuts.
 
-#### Object Wrapper Gotchas
-
-Using object wrappers directly can introduce gotchas. For instance:
+> [!warning] Object Wrapper Gotcha 
+> > `new Boolean(false)` creates an object wrapper around `false`, and all objects are truthy—so `if (!a)` will never execute.
+> 
+ 
+ Using object wrappers directly can introduce gotchas. For instance:
 ```js
 var a = new Boolean(false);
 if (!a) {

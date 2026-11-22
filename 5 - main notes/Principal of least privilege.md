@@ -5,14 +5,10 @@ type: note
 status: seed
 topic:
 tags:
-  - software_engineering
+  - software-engineering
   - security
 aliases: []
 ---
-
-
-Tags:  [[software design]] [[security]]
-
 - The principle of least privilege requires that users and processes be given only the bare minimum privileges needed to perform their intended functions. 
 - Benefits of the principle include improved intellectual security, better system security, and easier deployment of applications. 
 - Implementing the principle in practice is challenging due to the difficulty of precisely defining the minimum set of privileges required by a process. 

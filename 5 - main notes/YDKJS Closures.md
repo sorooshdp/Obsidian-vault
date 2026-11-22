@@ -175,7 +175,7 @@ foo.doSomething(); // "cool"
 ```
 *(Source:)*
 
-#### **ES6 Modules vs. Closure Modules**
+#### **[[JavaScript Modules|ES6 Modules]] vs. [[YDKJS Modules|Closure Modules]]**
 While traditional module patterns rely on outer functions and closures at runtime, **ES6 Modules** (`import` / `export`) provide static, file-based module support. Each ES6 module file is treated as its own implicit scope closure where exports act as live read-only bindings to internal identifiers.
 
 ```javascript

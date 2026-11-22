@@ -6,7 +6,8 @@ status: seed
 topic:
 tags:
   - performance
-aliases: []
+aliases:
+  - "[INP, Interaction to Next Paint]"
 ---
 
 Good responsiveness means that a page responds quickly to interactions. When a page responds to an interaction, the browser presents _visual feedback_ in the next frame that it paints. Visual feedback tells you if, for example, an item you add to an online shopping cart is indeed being added, whether a mobile navigation menu has opened, if a login form's contents are being authenticated by the server, and so forth.
