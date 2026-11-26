@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - rough notes/Network chapter 8.md",
+                "file": "1 - rough notes/Network chapter 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Network chapter 8"
+              "title": "Network chapter 5"
             }
           }
         ],
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.30001831054688
+    "width": 331.8999938964844
   },
   "right": {
     "id": "e2b8786e16f6356c",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - rough notes/Network chapter 8.md",
+                "file": "1 - rough notes/Network chapter 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.699951171875
+    "width": 344.699951171875,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,18 +182,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0ef6b210b5027e5",
+  "active": "e2761c90acb20f02",
   "lastOpenFiles": [
-    "1 - rough notes/Network chapter 7.md",
-    "1 - rough notes/Network chapter 8.md",
-    "1 - rough notes/Network chapter 6.md",
-    "1 - rough notes/Network chapter 5.md",
     "1 - rough notes/Network chapter 4.md",
-    "1 - rough notes/Cloud Computing - Parallel Processing.md",
+    "1 - rough notes/Network chapter 5.md",
     "1 - rough notes/Network chapter 3.md",
-    "1 - rough notes/Pre-Push Frontend Checklist.md",
     "1 - rough notes/Network chapter 2.md",
-    "1 - rough notes/network chapter 1.md",
+    "1 - rough notes/Network chapter 6.md",
+    "1 - rough notes/English Speaking - common vowels.md",
+    "1 - rough notes/English Speaking - long vowels.md",
+    "1 - rough notes/English Speaking - short vowels.md",
+    "1 - rough notes/English Speaking - manner of articulation.md",
+    "1 - rough notes/Cloud Computing - Parallel Processing.md",
+    "5 - main notes/Pre-Push Frontend Checklist.md",
+    "1 - rough notes/Network chapter 8.md",
+    "1 - rough notes/Network chapter 7.md",
+    "1 - rough notes/Network chapter 1.md",
     "5 - main notes/Cloud Computing - The Cloud Ecosystem.md",
     "5 - main notes/Academic Writing & Pre-Submission Checklist.md",
     "3 - indexes/CS & Software Engineering.md",
@@ -205,10 +210,6 @@
     "2 - tags/DOM.md",
     "2 - tags/closures.md",
     "5 - main notes/Prototype pattern.md",
-    "5 - main notes/Builder pattern.md",
-    "5 - main notes/Singleton pattern.md",
-    "5 - main notes/Factory method pattern.md",
-    "5 - main notes/Object pool, Multitone, Lazy initialization pattern.md",
     "5 - main notes/Untitled.canvas",
     "6 - Bases/Notes.base",
     "5 - main notes/Untitled 1.base",

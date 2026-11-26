@@ -91,7 +91,7 @@ A high-speed router consists of four primary structural components:
 
 #### Line-Card Shadow Memory
 
-To prevent the central routing processor from becoming a bottleneck during packet lookup, modern routers maintain a shadow copy of the forwarding table on every input line card. Forwarding tables are computed by the routing processor and copied across an internal bus (e.g., PCIe) to memory on each line card. Lookups are thus executed entirely locally on line card hardware in nanoseconds without central processor intervention.
+To prevent the central routing processor from becoming a bottleneck during packet lookup, modern routers maintain a shadow copy of the forwarding table on every input line card. Forwarding tables are computed by the routing processor and copied across an internal bus (e.g., `PCIe`) to memory on each line card. Lookups are thus executed entirely locally on line card hardware in nanoseconds without central processor intervention.
 
 ### 2.2 Input Port Processing & TCAM Lookup
 

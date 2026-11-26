@@ -1,3 +1,21 @@
+---
+created: 2026-11-24 14:51
+updated: 2026-11-24 14:51
+type: note
+status: seed
+topic:
+tags:
+  - web/javascript
+aliases: []
+---
+
+## Summary
+
+
+## Notes
+
+
+## References
 
 ## TypeScript & React
 - [ ] **Use `readonly` for component prop types** — e.g., `Readonly<{ title: string }>` to prevent accidental mutation

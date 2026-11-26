@@ -144,26 +144,40 @@ The UDP checksum provides error detection against bit flips introduced during tr
 
 Consider three 8-bit words (simplified for illustration): 01010011, 01100110, and 01110100.
 
-```text
-\begin{array}{r@{\quad}l} 01010011 & \
+$$
+\begin{array}{r@{\qquad}l}
+  01010011 & \\
++ 01100110 & \\
+\hline
+  10111001 & \text{(Sum of first two words)}
+\end{array}
+$$
 
-* 01100110 & \ \hline 10111001 & \text{(Sum of first two words)} \
-
-* 01110100 & \ \hline 100101101 & \text{(Sum produces 9-bit result with carry-out 1)} \ \end{array}
-```
+$$
+\begin{array}{r@{\quad}l}
+\phantom{+}\ 10111001 & \\
++\ 01110100 & \\
+\hline
+\phantom{+}\ 100101101 & \text{(Sum produces 9-bit result with carry-out 1)}
+\end{array}
+$$
 
 Wrap around the carry bit:
 
-```text
-\begin{array}{r@{\quad}l} 00101101 & \
+$$
+\begin{array}{r@{\quad}l}
+\phantom{+}\ 00101101 & \\
++\phantom{0}\ 1 & \\
+\hline
+\phantom{+}\ 00101110 & \text{(Sum after wraparound)}
+\end{array}
+$$
 
-   1 & \\
+Take the 1s complement: 
 
-
-\hline 00101110 & \text{(Sum after wraparound)} \ \end{array}
-```
-
-Take the 1s complement: $\text{Checksum} = \sim(00101110) = \mathbf{11010001}$
+$$
+\text{Checksum} = \sim(00101110) = \mathbf{11010001}
+$$
 
 #### The End-to-End Principle
 
@@ -262,11 +276,25 @@ If N = 3, utilization triples. To support pipelining:
 
 GBN restricts the sender to a maximum sliding window size of N unacknowledged packets.
 
-```text
-                  sender's sequence number space:
-[0 ... base-1]     [base ... nextseqnum-1]     [nextseqnum ... base+N-1]     [base+N ...]
-Already ACKed      Sent, unACKed               Usable, not yet sent          Cannot be used
-```
+<div style="display:flex; box-sizing:border-box; border:2px solid #888; border-radius:6px; overflow:hidden; font-family:monospace; text-align:center; font-size:0.85em; line-height:1.35;">
+  <div style="flex:3; box-sizing:border-box; padding:8px 4px; background:#e8e8e8; color:#444; border-right:1px dashed #aaa;">
+    <strong>[0 … base−1]</strong><br>Already ACKed
+  </div>
+  <div style="flex:2.5; box-sizing:border-box; padding:8px 4px; background:#fff3cd; color:#664d03; border-right:1px dashed #aaa;">
+    <strong>[base … nextseqnum−1]</strong><br>Sent, unACKed
+  </div>
+  <div style="flex:2.5; box-sizing:border-box; padding:8px 4px; background:#d1e7dd; color:#0f5132; border-right:1px dashed #aaa;">
+    <strong>[nextseqnum … base+N−1]</strong><br>Usable, not yet sent
+  </div>
+  <div style="flex:3; box-sizing:border-box; padding:8px 4px; background:#f8d7da; color:#842029;">
+    <strong>[base+N …]</strong><br>Cannot be used
+  </div>
+</div>
+<div style="display:flex; box-sizing:border-box; font-family:monospace; font-size:0.72em; text-align:center; color:#b02a37; margin-top:2px;">
+  <div style="flex:3;"></div>
+  <div style="flex:5; border-top:2px solid #b02a37; padding-top:2px;">Sender Window (size N)</div>
+  <div style="flex:3;"></div>
+</div>
 
 * **Cumulative Acknowledgments:** An ACK with sequence number n indicates that all packets up to and including n have been correctly received.
 * **Single Timer:** The sender maintains a single timer corresponding strictly to the oldest unacknowledged packet (base). On timeout, the sender retransmits all N packets in the window (base through nextseqnum - 1).
@@ -280,11 +308,22 @@ SR avoids unnecessary retransmissions by requiring the receiver to acknowledge p
 * **Per-Packet Timers:** The sender maintains logical timers for every individual packet. On timeout for packet x, only packet x is retransmitted.
 * **Receiver Buffering:** The receiver maintains an explicit receive window of size N, buffering out-of-order packets falling within `[rcv_base, rcv_base + N - 1]`. When contiguous packets starting at `rcv_base` are filled, they are delivered en masse to the application layer, and the receive window slides forward.
 
-```text
-Selective Repeat Receiver Window:
-[rcv_base - N ... rcv_base - 1]   [rcv_base ... rcv_base + N - 1]   [rcv_base + N ...]
-Already ACKed (re-ACK if rcvd)     Acceptable window range           Cannot receive yet
-```
+<div style="display:flex; box-sizing:border-box; border:2px solid #888; border-radius:6px; overflow:hidden; font-family:monospace; text-align:center; font-size:0.85em; line-height:1.35;">
+  <div style="flex:3; box-sizing:border-box; padding:8px 4px; background:#e8e8e8; color:#444; border-right:1px dashed #aaa;">
+    <strong>[rcv_base − N … rcv_base − 1]</strong><br>Already ACKed (re-ACK if rcvd)
+  </div>
+  <div style="flex:4; box-sizing:border-box; padding:8px 4px; background:#d1e7dd; color:#0f5132; border-right:1px dashed #aaa;">
+    <strong>[rcv_base … rcv_base + N − 1]</strong><br>Acceptable window range
+  </div>
+  <div style="flex:3; box-sizing:border-box; padding:8px 4px; background:#f8d7da; color:#842029;">
+    <strong>[rcv_base + N …]</strong><br>Cannot receive yet
+  </div>
+</div>
+<div style="display:flex; box-sizing:border-box; font-family:monospace; font-size:0.72em; text-align:center; color:#0f5132; margin-top:2px;">
+  <div style="flex:3;"></div>
+  <div style="flex:4; border-top:2px solid #198754; padding-top:2px;">Receive Window (size N)</div>
+  <div style="flex:3;"></div>
+</div>
 
 #### The SR Window Size Dilemma
 
@@ -308,24 +347,42 @@ Transmission Control Protocol (TCP), defined across RFC 793, 1122, 2018, 5681, a
 
 ### 4.2 TCP Segment Structure
 
-```text
- 0                   15 16                   31 Bits
-+----------------------+----------------------+
-| Source Port Number   | Destination Port Num |
-+----------------------+----------------------+
-|            Sequence Number (32)             |
-+----------------------+----------------------+
-|         Acknowledgment Number (32)          |
-+-------+--------+-----+----------------------+
-|DataOff| Reserved|Flags| Receive Window (rwnd)|
-+-------+--------+-----+----------------------+
-|  Checksum (16)       | Urgent Pointer (16)  |
-+----------------------+----------------------+
-|            Options (if any)                 |
-+---------------------------------------------+
-|               Payload Data                  |
-+---------------------------------------------+
-```
+<div style="font-family:monospace; font-size:0.78em; max-width:640px; line-height:1.3;">
+
+<div style="display:flex; justify-content:space-between; color:#888; padding:0 2px 3px;">
+  <span>0</span><span>15&nbsp;&nbsp;16</span><span>31 Bits</span>
+</div>
+
+<table style="border-collapse:collapse; width:100%; table-layout:fixed; text-align:center;">
+  <tr>
+    <td colspan="16" style="border:1px solid #555; padding:6px 4px; background:#e8f0fe; color:#10407a;">Source Port Number<br><span style="font-size:0.85em; opacity:.6;">16 bits</span></td>
+    <td colspan="16" style="border:1px solid #555; padding:6px 4px; background:#e8f0fe; color:#10407a;">Destination Port Num<br><span style="font-size:0.85em; opacity:.6;">16 bits</span></td>
+  </tr>
+  <tr>
+    <td colspan="32" style="border:1px solid #555; padding:6px 4px; background:#e6f4ea; color:#0f5132;">Sequence Number<br><span style="font-size:0.85em; opacity:.6;">32 bits</span></td>
+  </tr>
+  <tr>
+    <td colspan="32" style="border:1px solid #555; padding:6px 4px; background:#e6f4ea; color:#0f5132;">Acknowledgment Number<br><span style="font-size:0.85em; opacity:.6;">32 bits</span></td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border:1px solid #555; padding:6px 2px; background:#fff4e5; color:#7a4b00;">DataOff<br><span style="font-size:0.85em; opacity:.6;">4 bits</span></td>
+    <td colspan="3" style="border:1px solid #555; padding:6px 2px; background:#fff4e5; color:#7a4b00;">Reserved<br><span style="font-size:0.85em; opacity:.6;">3 bits</span></td>
+    <td colspan="9" style="border:1px solid #555; padding:6px 2px; background:#fff4e5; color:#7a4b00;">Flags<br><span style="font-size:0.85em; opacity:.6;">9 bits</span></td>
+    <td colspan="16" style="border:1px solid #555; padding:6px 4px; background:#fff4e5; color:#7a4b00;">Receive Window (rwnd)<br><span style="font-size:0.85em; opacity:.6;">16 bits</span></td>
+  </tr>
+  <tr>
+    <td colspan="16" style="border:1px solid #555; padding:6px 4px; background:#f3e8ff; color:#5b2a86;">Checksum<br><span style="font-size:0.85em; opacity:.6;">16 bits</span></td>
+    <td colspan="16" style="border:1px solid #555; padding:6px 4px; background:#f3e8ff; color:#5b2a86;">Urgent Pointer<br><span style="font-size:0.85em; opacity:.6;">16 bits</span></td>
+  </tr>
+  <tr>
+    <td colspan="32" style="border:1px solid #555; padding:6px 4px; background:#f1f1f1; color:#444;">Options (if any)</td>
+  </tr>
+  <tr>
+    <td colspan="32" style="border:1px solid #555; padding:6px 4px; background:#fafafa; color:#555;">Payload Data</td>
+  </tr>
+</table>
+
+</div>
 
 * **Sequence Number (32 bits):** The byte-stream number of the first byte of data carried in the segment.
 * **Acknowledgment Number (32 bits):** The sequence number of the next byte of data expected from the other side (cumulative acknowledgment).
@@ -604,10 +661,14 @@ Standard Secure Web Stack                  HTTP/3 Stack
 2. **Answer:** A UDP segment is demultiplexed based on a 2-tuple (Destination IP, Destination Port). A TCP segment is demultiplexed based on a 4-tuple (Source IP, Source Port, Destination IP, Destination Port).
 3. **Answer:**
 
-    ```text
-    \begin{array}{r@{\quad}l} 10101011 & \
-      * 01001101 & \ \hline 11111000 & \text{(Sum without carry-out)} \ \end{array}
-    ```
+$$
+\begin{array}{r@{\quad}l}
+\phantom{+}\ 10101011 & \\
++\ 01001101 & \\
+\hline
+\phantom{+}\ 11111000 & \text{(Sum without carry-out)}
+\end{array}
+$$
 
     Taking the 1s complement: $\sim(11111000) = \mathbf{00000111}$.
 4. **Answer:** Protocol rdt2.0 failed if ACK or NAK control packets were corrupted, because the sender could not tell if the receiver received the data. Protocol rdt2.1 added 1-bit sequence numbers (0 and 1) to data packets so receivers can recognize retransmitted duplicates.

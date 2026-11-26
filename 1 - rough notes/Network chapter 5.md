@@ -238,19 +238,14 @@ When a BGP router advertises a CIDR prefix, it appends several BGP Attributes. A
 ### 4.3 Hot Potato Routing vs. BGP Route Selection Algorithm
 
 When an internal router receives multiple distinct BGP routes for the same destination prefix, it invokes the BGP Route-Selection Algorithm sequentially until a single winning route remains:
-
 1. Policy Evaluation (Local Preference):
     Select route with the highest 'Local Preference' value set by AS administrator.
-
 2. Shortest AS-PATH:
     Select route with the shortest 'AS-PATH' length (fewest AS hops).
-
 3. Hot Potato Routing:
     Select route with the closest 'NEXT-HOP' router (least intra-AS cost via OSPF).
-
 4. Tie-Breaker:
     Select route based on lowest BGP Router ID.
-
 #### Hot Potato Mechanics
 
 Hot Potato Routing is a selfish local optimization strategy. The router chooses the external gateway that minimizes intra-AS transit cost inside its own network, ignoring how many AS hops or total delay the packet will experience once it exits the AS.
